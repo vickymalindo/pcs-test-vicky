@@ -1,9 +1,12 @@
-// import {CgPill} from 'react-icons/cg'
-// import { FcAlarmClock } from 'react-icons/fc';
-// import { BsCheck, BsArrowRightShort } from 'react-icons/bs';
-// import { IoCloseOutline } from 'react-icons/io';
+interface PropsNotification {
+  image: string;
+  title: string;
+  date: string;
+  type: string;
+  desc: string;
+}
 
-export const dataNotification = [
+export const dataNotification: PropsNotification[] = [
   {
     image: '<FaCoins />',
     title: 'Reimbursement',
