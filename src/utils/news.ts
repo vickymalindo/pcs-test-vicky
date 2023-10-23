@@ -1,4 +1,11 @@
-export const newsData = [
+interface PropsNewsData {
+  name: string;
+  image: string;
+  day: string;
+  date: string;
+  sentence: string;
+}
+export const newsData: PropsNewsData[] = [
   {
     name: 'Ana Riswati',
     image: '<BsFillPersonFill />',
