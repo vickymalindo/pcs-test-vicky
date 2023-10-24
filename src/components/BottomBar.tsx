@@ -3,7 +3,7 @@ import Icons from './Icons';
 
 const BottomBar = () => {
   return (
-    <footer className='shadow shadow-slate-400 px-4 py-2 w-full flex justify-between items-center fixed bottom-0'>
+    <footer className='shadow shadow-slate-400 px-4 py-2 w-full flex justify-between items-center sticky bottom-0 bg-white mt-16  '>
       {bottomBarData.map((item, index) => {
         let color = '';
         if (index === 1 || index === 3 || index === 4) {
