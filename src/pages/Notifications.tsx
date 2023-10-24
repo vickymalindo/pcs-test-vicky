@@ -19,7 +19,7 @@ const Notification = () => {
             key={index}
             className={`${
               item.bgBlue ? 'bg-blue-300' : 'bg-white'
-            } py-2 px-4 flex justify-between items-start gap-2`}>
+            } py-2 px-4 flex justify-between items-start gap-2 cursor-pointer`}>
             <div className='bg-red-400 w-12 h-12 rounded-md p-1.5 flex items-center justify-center relative shadow-lg shadow-gray-400'>
               <div className='text-xl'>
                 <Icons type={item.image} />
@@ -34,7 +34,9 @@ const Notification = () => {
               {parse(item.desc)}
             </div>
             <div className='w-[20%]'>
-              <p className='text-gray-400 text-xs w-max'>{item.date}</p>
+              <p className='text-gray-400 text-xs w-full text-right'>
+                {item.date}
+              </p>
             </div>
           </div>
         );
