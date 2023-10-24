@@ -6,22 +6,22 @@ interface PropsBottomBarData {
 export const bottomBarData: PropsBottomBarData[] = [
   {
     text: 'Home',
-    image: '<IoHome />',
+    image: 'home',
   },
   {
     text: 'Attendance',
-    image: '<BsCalendarCheck />',
+    image: 'calendar',
   },
   {
     text: 'Check Out',
-    image: '<FiLogOut />',
+    image: 'logout',
   },
   {
     text: 'Form',
-    image: '<SiGoogleforms />',
+    image: 'form',
   },
   {
     text: 'Setting',
-    image: '<IoSettingsSharp />',
+    image: 'setting',
   },
 ];
